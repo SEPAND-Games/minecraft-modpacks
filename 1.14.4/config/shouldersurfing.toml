@@ -1,0 +1,44 @@
+#Third person camera rotation
+#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+rotation_offset = -17.0
+#Third person camera zoom
+#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+zoom_offset = 0.580000002682209
+#Whether or not rotation adjustment has limits
+unlimited_rotation = false
+#If rotation is limited this is the minimum amount
+#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+rotation_min = -60.0
+#If rotation is limited this is the maximum amount
+#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+rotation_max = 60.0
+#Whether or not zoom adjustment has limits
+unlimited_zoom = false
+#If zoom is limited this is the minimum amount
+#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+zoom_min = 0.3
+#If zoom is limited this is the maximum amount
+#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+zoom_max = 2.0
+#Enable or disable the crosshair in third person
+3pp_crosshair = true
+#Enable or disable the crosshair in first person
+1pp_crosshair = true
+#Crosshair visibility in 3PP (ALWAYS, WHEN_AIMING, WHEN_IN_RANGE, WHEN_AIMING_OR_IN_RANGE)
+#Allowed Values: ALWAYS, WHEN_AIMING, WHEN_IN_RANGE, WHEN_AIMING_OR_IN_RANGE
+crosshair_visibility = "ALWAYS"
+#Whether or not to show the crosshairs farther than normal
+show_crosshair_farther = true
+#Whether or not to hide the player model if the camera gets too close to it
+keep_camera_out_of_head = true
+#Enable or disable the attack indicator in third person
+third_person_attack_indicator = true
+#Whether or not to replace the default third person perspective
+replace_default_perspective = false
+#The default perspective when you load the game (FIRST_PERSON, THIRD_PERSON, FRONT_THIRD_PERSON, SHOULDER_SURFING)
+#Allowed Values: FIRST_PERSON, THIRD_PERSON, FRONT_THIRD_PERSON, SHOULDER_SURFING
+default_perspective = "SHOULDER_SURFING"
+#Crosshair type to use in 3PP (ADAPTIVE, DYNAMIC, STATIC, STATIC_WITH_1PP)
+#Allowed Values: ADAPTIVE, DYNAMIC, STATIC, STATIC_WITH_1PP
+crosshair_type = "ADAPTIVE"
+

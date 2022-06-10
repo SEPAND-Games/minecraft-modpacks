@@ -1,0 +1,28 @@
+
+[leaves]
+	#Add the content of the Tag minecraft:leaves as valid Leaves
+	"Use Leaves Tag" = true
+	#Add the registry name of blocks here that should count as Leaves
+	"Leaves Blocks" = []
+
+[axes]
+	#Any Axe added to this list will not work with Tree Choppin
+	#One Entry Per line, no Commas
+	"Axe Blacklist" = []
+
+[options]
+	#Cut down leaves and logs
+	decayLeaves = true
+	#Automaticly plant sapling on tree chop
+	plantSapling = true
+	#Ignore Sneaking when chopping trees
+	disableShift = false
+	#Only chop down trees when sneaking
+	reverseShift = true
+
+[logs]
+	#Add the contents of the Tag minecraft:logs as valid Logs
+	"Use Logs Tag" = true
+	#Add the registry name of blocks here that should count as Logs
+	"Log Blocks" = []
+

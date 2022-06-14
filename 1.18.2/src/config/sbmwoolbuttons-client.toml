@@ -1,0 +1,3 @@
+#True if the buttons should make a sound when pressed, false otherwhise
+make_sound = false
+

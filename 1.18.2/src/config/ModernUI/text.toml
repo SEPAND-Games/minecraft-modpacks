@@ -1,0 +1,18 @@
+
+#Text Config
+[text]
+	#Allow text renderer to draw text with shadow, setting to false can improve performance a bit.
+	allowShadow = true
+	#Fixed resolution level. When the GUI scale increases, the resolution level will not increase.
+	#In this case, gui scale should be even numbers (2, 4, 6...), based on Minecraft GUI system.
+	#If your fonts are not really bitmap fonts, then you should keep this setting false.
+	fixedResolution = false
+	#Use smaller or larger font for vanilla text layout. To be exact, small (7 * GuiScale), normal (8 * GuiScale), large (9 * GuiScale).
+	#A game restart is required to reload the setting properly.
+	#Allowed Values: SMALL, NORMAL, LARGE
+	fontSize = "NORMAL"
+	#Control vertical baseline for vanilla text layout, in normalized pixels.
+	#For smaller font, 6 is recommended. The default value is 7.
+	#Range: 5 ~ 9
+	baseline = 7
+
